@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# CampusFix 🏫
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Campus Issue & Resolution System
 
-## Available Scripts
+CampusFix is a beginner-friendly React application designed to manage and track campus complaints in one place.
 
-In the project directory, you can run:
+The system allows students to report issues and provides an interface for viewing, filtering and updating complaint status.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Problem
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Campus complaints can be difficult to track when they are reported through different channels.
 
-### `npm test`
+Some common problems are:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Complaints are not centrally recorded
+- Students may not know the current status
+- Department responsibility can be unclear
+- Finding a particular complaint can take time
+- Managing multiple complaints manually can become difficult
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Solution
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+CampusFix provides a simple centralized interface where complaints can be:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Reported
+- Viewed
+- Searched
+- Filtered
+- Assigned to a department
+- Updated through different statuses
 
-### `npm run eject`
+### Complaint Flow
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```text
+Student
+   ↓
+Report Complaint
+   ↓
+Complaint Recorded
+   ↓
+Admin Views Complaint
+   ↓
+Department Assigned
+   ↓
+Status Updated
+   ↓
+Resolved
